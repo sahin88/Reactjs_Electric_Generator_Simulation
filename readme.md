@@ -1,16 +1,15 @@
-# Create your own CV with ReactJS and Redux
+# Reactjs_Electric_Generator_Simulation
 
 ## App Info
-
-Via this app you can see the effect of gravitation on frictionless ambience.
+This app basically shows, how does affects the different variants like magnetic fields or Frequenz the electricity generation. You can change the variables, and the effect of these variants you can  see in the  table
 
 ## Online demo
 
-YouTube(https://www.youtube.com/watch?v=250A4npEzec)
+YouTube(https://www.youtube.com/watch?v=DWKSGNbUpio)
 
 ## Basic View
 
-<img with='400px' height='400px' src="https://github.com/sahin88/ReactJS_Animation_Pendelum_Simulation/blob/main/react_physics.png"/>
+<img with='400px' height='400px' src="https://github.com/sahin88/Reactjs_Electric_Generator_Simulation/blob/main/react_physics_generator.png"/>
 
 ## Getting Started
 
@@ -19,8 +18,8 @@ First clone the repository from Github and switch to the new directory:
 In the project directory, you can run:
 
 ```
-$ git clone git@github.com/sahin88/ReactJS_Animation_Pendelum_Simulation.git
-$ cd ReactJS_Animation_Pendelum_Simulation
+$ git clone git@github.com/sahin88/Reactjs_Electric_Generator_Simulation.git
+$ cd Reactjs_Electric_Generator_Simulation
 
 ```
 
