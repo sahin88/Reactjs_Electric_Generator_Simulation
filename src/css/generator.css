@@ -1,0 +1,83 @@
+.magnet_field {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid red;
+  position: relative;
+}
+
+.magnet_plate {
+  position: absolute;
+  top: 180px;
+  background-color: aqua;
+  animation: magnet;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.magnet_top {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  background-color: #c8232c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magnet_bottom {
+  width: 300px;
+  height: 50px;
+  background-color: #007aff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lambee {
+  position: absolute;
+  color: #03e9f4;
+  overflow: hidden;
+  animation: lambfr linear infinite;
+  top: 200px;
+  left: 460px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+@keyframes lambfr {
+  0% {
+    background: #ffe000;
+    box-shadow: 0 0 5px #ffe000, 0 0 25px #ffe000, 0 0 50px #ffe000,
+      0 0 200px #ffe000;
+  }
+  50%,
+  100% {
+  }
+}
+
+@keyframes magnet {
+  0% {
+    transform: rotatex(0deg);
+  }
+  25% {
+    transform: rotatex(90deg);
+  }
+  50% {
+    transform: rotatex(180deg);
+  }
+
+  75% {
+    transform: rotatex(270deg);
+  }
+  100% {
+    transform: rotatex(360deg);
+  }
+}
